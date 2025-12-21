@@ -1,4 +1,4 @@
-import com.matheus.estudos.threads01.MinhaThread;
+package com.matheus.estudos.threads01;
 
 public class Main {
     public static void main(String[] args) {
