@@ -1,0 +1,11 @@
+package com.matheus.estudos.threads05;
+
+public class Teste {
+
+    public static void main(String[] args) {
+
+        int[] array = {1, 2, 3, 4, 5};
+        MinhaThreadSoma t1 = new MinhaThreadSoma("Thread Soma 1", array);
+        MinhaThreadSoma t2 = new MinhaThreadSoma("Thread Soma 2", array);
+    }
+}
